@@ -22,7 +22,7 @@
             <!-- Edit android:value to change the url opened by the TWA -->
             <meta-data
                 android:name="android.support.customtabs.trusted.DEFAULT_URL"
-                android:value="http://localhost:8082" />
+                android:value="https://future-function.herokuapp.com" />
 
             <!-- This intent-filter adds the TWA to the Android Launcher -->
             <intent-filter>
@@ -38,8 +38,8 @@
 
                 <!-- Edit android:host to handle links to the target URL-->
                 <data
-                    android:scheme="http"
-                    android:host="localhost:8082"/>
+                    android:scheme="https"
+                    android:host="future-function.herokuapp.com"/>
             </intent-filter>
         </activity>
     </application>
